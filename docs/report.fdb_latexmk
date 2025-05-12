@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1747080089.92681 "report.tex" "report.pdf" "report" 1747080090.90074 0
+["pdflatex"] 1747082263.78838 "report.tex" "report.pdf" "report" 1747082264.68148 0
   "C:/Users/silva/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1747079910 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/silva/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1747079445 13157641 2424294c60fb872cb52d47a84a020084 ""
   "C:/Users/silva/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -9,7 +9,6 @@
   "C:/Users/silva/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmbx12.tfm" 1256929440 12088 d750ac78274fa7c9f73ba09914c04f8a ""
   "C:/Users/silva/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmr12.tfm" 1256929440 12092 7b1546e2d096cfd5dcbd4049b0b1ec2e ""
   "C:/Users/silva/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmr17.tfm" 1256929440 12156 ca1ae6a3c8564e89597f1f993fba1608 ""
-  "C:/Users/silva/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmri12.tfm" 1256929440 17144 271aaf9ebb339934b04110dc5211fba4 ""
   "C:/Users/silva/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmtt12.tfm" 1256929440 1368 6a60e6a5e029141041d64d339b87e533 ""
   "C:/Users/silva/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/lmex10.tfm" 1256929440 992 ce925c9346c7613270a79afbee98c070 ""
   "C:/Users/silva/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/lmmi10.tfm" 1256929440 1528 6d36b2385e0ca062a654de6ac59cb34f ""
@@ -24,7 +23,6 @@
   "C:/Users/silva/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb" 1256929440 116908 9a7a12d1e4df280ea0ab4aad83cdef88 ""
   "C:/Users/silva/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb" 1256929440 113634 9384aebdf26f9881e046a4b5574566db ""
   "C:/Users/silva/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb" 1256929440 119752 1bd8d06e4079df624bf59ce3ad7c9aa6 ""
-  "C:/Users/silva/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb" 1256929440 109265 e6c7d377db6dfccd4a123fb26da8cffb ""
   "C:/Users/silva/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb" 1256929440 110323 19372944fba298bb4c4758abff959582 ""
   "C:/Users/silva/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/silva/AppData/Local/Programs/MiKTeX/tex/generic/atbegshi/atbegshi.sty" 1575571100 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -88,9 +86,9 @@
   "C:/Users/silva/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/silva/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/silva/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "report.aux" 1747080090 1412 6d9756d276c5698802b0293a1d31523f "pdflatex"
-  "report.out" 1747080090 1206 1d83be561f2a6867b49d93ed294a94d4 "pdflatex"
-  "report.tex" 1747080012 3257 20ef8819301ac3e09f506a5ae6b53410 ""
+  "report.aux" 1747082264 1211 c72e7c5b1f54a0ebc5d0eee7dfceb3fd "pdflatex"
+  "report.out" 1747082264 1104 9830a3f64889444a9772decec776f93a "pdflatex"
+  "report.tex" 1747082257 3006 71b884530f3006b85eb26454dc7c7419 ""
   (generated)
   "report.aux"
   "report.log"

@@ -12,8 +12,8 @@
 \geometry{margin=1in}
 
 \title{Relatório: Trabalho de Banco de Dados}
-\author{Natanael Santos da Silva - 03323776}
-\date{18/05/2025}
+\author{Natanael Santos da Silva}
+\date{12/05/2025}
 
 \begin{document}
 
@@ -25,19 +25,19 @@ Este relatório apresenta a implementação de um projeto de banco de dados com 
 \section{Conceitos Fundamentais}
 
 \subsection{Integridade Referencial}
-A integridade referencial garante que as chaves estrangeiras em uma tabela correspondam a chaves primárias válidas em outra tabela, evitando registros órfãos. Por exemplo, na tabela \texttt{orders}, o campo \texttt{user\_id} referencia \texttt{id} da tabela \texttt{users} \cite{elm}.
+A integridade referencial garante que as chaves estrangeiras em uma tabela correspondam a chaves primárias válidas em outra tabela, evitando registros órfãos. Por exemplo, na tabela \texttt{orders}, o campo \texttt{user\_id} referencia \texttt{id} da tabela \texttt{users}.
 
 \subsection{View}
-Uma view é uma consulta armazenada que atua como uma tabela virtual. No projeto, a view \texttt{user\_orders} combina dados de \texttt{users} e \texttt{orders} para facilitar consultas \cite{elm}.
+Uma view é uma consulta armazenada que atua como uma tabela virtual. No projeto, a view \texttt{user\_orders} combina dados de \texttt{users} e \texttt{orders} para facilitar consultas.
 
 \subsection{Trigger}
-Triggers são ações automáticas disparadas por eventos no banco, como inserções. A trigger \texttt{order\_insert} registra logs automaticamente ao inserir pedidos \cite{elm}.
+Triggers são ações automáticas disparadas por eventos no banco, como inserções. A trigger \texttt{order\_insert} registra logs automaticamente ao inserir pedidos.
 
 \subsection{Join}
-Um join combina dados de múltiplas tabelas com base em condições. O projeto usa INNER JOIN na view \texttt{user\_orders} para relacionar \texttt{users} e \texttt{orders} \cite{elm}.
+Um join combina dados de múltiplas tabelas com base em condições. O projeto usa INNER JOIN na view \texttt{user\_orders} para relacionar \texttt{users} e \texttt{orders}.
 
 \subsection{Teste de Performance}
-Testes de performance verificam a eficiência de operações, como o uso de índices para acelerar buscas. O teste \texttt{test\_index\_performance} confirma que o índice \texttt{idx\_name} é utilizado \cite{elm}.
+Testes de performance verificam a eficiência de operações, como o uso de índices para acelerar buscas. O teste \texttt{test\_index\_performance} confirma que o índice \texttt{idx\_name} é utilizado.
 
 \section{Estudo de Caso}
 O projeto implementa um sistema de gerenciamento de pedidos com as seguintes funcionalidades:
@@ -58,11 +58,5 @@ Os testes estão organizados em arquivos separados na pasta \texttt{tests/}:
     \item \texttt{test\_index.py}: Testa o uso de índice.
     \item \texttt{test\_additional.py}: Testa inserção, deleção, join, transação e concorrência.
 \end{enumerate}
-
-\section{Referências}
-\begin{thebibliography}{9}
-\bibitem{elm}
-Elmasri, R., Navathe, S. B. \emph{Fundamentals of Database Systems}, 7th ed. Pearson, 2016.
-\end{thebibliography}
 
 \end{document}
